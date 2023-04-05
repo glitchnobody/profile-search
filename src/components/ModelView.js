@@ -24,8 +24,8 @@ function Model() {
 
   // handel device tilt movement
   window.addEventListener("deviceorientation", (e) => {
-    mouse.x = e.beta / 90;
-    mouse.y = e.gamma / 90;
+    mouse.x = e.gamma / 90;
+    mouse.y = e.beta / 90;
   });
 
   useFrame(() => {
