@@ -28,6 +28,13 @@ const Index = () => {
   return (
     <div>
       <main className="w-full  relative z-10 mx-auto   flex flex-col items-center">
+        <Link
+          href="https://github.com/glitchnobody/profile-search"
+          target="_blank"
+          className="absolute top-4 right-4 text-gray-400 hover:text-white"
+        >
+          See The Code
+        </Link>
         <div className=" w-full px-3 max-w-7xl ">
           <div className="w-full  flex-col  flex items-center">
             <div className="w-11/12">
@@ -138,6 +145,7 @@ const Index = () => {
           )}
         </div>
       </main>
+
       <div className=" pointer-events-none top-0 z-0 fixed w-full h-screen">
         <ModelView />
         <div className="graincontain">
